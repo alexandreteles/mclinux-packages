@@ -1,0 +1,12 @@
+Package: meta-base-mclinux
+Source: semplice-meta
+Version: 0.6
+Architecture: all
+Maintainer: Alexandre Teles (kabbalista) <ateles.1@gmail.com>
+Installed-Size: 51
+Pre-Depends: meta-base
+Replaces: meta-base
+Section: misc
+Priority: optional
+Homepage: http://semplice-linux.org
+Description: The MCLinux OSRelease and lsb-release Package

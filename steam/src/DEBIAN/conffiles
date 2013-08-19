@@ -1,0 +1,2 @@
+/etc/apt/sources.list.d/steam.list
+/etc/apt/trusted.gpg.d/steam.gpg

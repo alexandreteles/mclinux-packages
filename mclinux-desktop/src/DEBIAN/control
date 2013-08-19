@@ -1,0 +1,15 @@
+Package: mclinux-desktop
+Version: 0.8
+Architecture: all  
+Maintainer: Alexandre Teles (Kabbalista) <ateles.1@gmail.com>
+Installed-Size: 29
+Depends: kdm, kdesudo, kde-full, kde-standard, kde-l10n-ptbr, kdetoys, kdewebdev, konq-plugins, plasma-widget-networkmanagement, freespacenotifier, skanlite, software-properties-gtk, kde-config-gtk-style, kde-config-gtk-style-preview, gtk2-engines-oxygen, gtk3-engines-oxygen, hplip, yakuake, virtuoso-minimal, xterm, phonon-backend-gstreamer, gstreamer0.10-packagekit
+Section: misc
+Priority: important
+Homepage: http://mclinux.linuxeiro.com
+Description: The MCLinux Desktop metapackage
+ This package depends on all packages that makes a MCLinux KDE desktop system.
+ .
+ This package is used to ensure proper updates if the user decided to not
+ use the rolling release system.
+

@@ -1,0 +1,15 @@
+Package: meta-system
+Version: 0.5
+Architecture: all  
+Maintainer: Alexandre Teles (Kabbalista) <ateles.1@gmail.com>
+Installed-Size: 29
+Depends: grub-pc, cpufrequtils, python-gpgme, preload, sysv-rc-conf, libmtp-runtime, aptitude, apt-notifier, nscd
+Section: misc
+Priority: optional
+Homepage: http://mclinux.linuxeiro.com
+Description: The MCLinux System metapackage
+ This package depends on all system packages of MCLinux.
+ .
+ This package is used to ensure proper updates if the user decided to not
+ use the rolling release system.
+

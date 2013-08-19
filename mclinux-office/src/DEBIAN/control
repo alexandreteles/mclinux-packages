@@ -1,0 +1,15 @@
+Package: mclinux-office
+Version: 0.4
+Architecture: all  
+Maintainer: Alexandre Teles (Kabbalista) <ateles.1@gmail.com>
+Installed-Size: 29
+Depends: libreoffice, libreoffice-l10n-pt-br, libreoffice-wiki-publisher, libreoffice-help-pt-br, libreoffice-pdfimport, calibre, evince, xournal
+Section: misc
+Priority: optional
+Homepage: http://mclinux.linuxeiro.com
+Description: The MCLinux Office metapackage
+ This package depends on all packages that makes a MCLinux office system.
+ .
+ This package is used to ensure proper updates if the user decided to not
+ use the rolling release system.
+

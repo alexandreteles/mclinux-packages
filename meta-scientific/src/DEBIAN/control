@@ -1,0 +1,15 @@
+Package: meta-scientific
+Version: 0.4
+Architecture: all  
+Maintainer: Alexandre Teles (Kabbalista) <ateles.1@gmail.com>
+Installed-Size: 29
+Depends: geany, geany-plugins, geany-plugins-common, avogadro, easychem, lyx, kile, bkchem, bist, gelemental, clustalx, raster3d, xdrawchem, gcu-bin, build-essential, stellarium, wxmaxima, rocs, octave, celestia, codeblocks, kalgebra, gimp, gimp-data-extras, gimp-dcraw, blender, netbeans, qelectrotech, qelectrotech-data, qelectrotech-examples, qt4-designer, qtcreator, qt4-dev-tools, libqt4-core, libqt4-dev, libqt4-gui, qt4-default, qt4-demos, kdevelop
+Section: misc
+Priority: optional
+Homepage: http://mclinux.linuxeiro.com
+Description: The MCLinux Scientific metapackage
+ This package depends on all packages that makes a MCLinux scientific system.
+ .
+ This package is used to ensure proper updates if the user decided to not
+ use the rolling release system.
+

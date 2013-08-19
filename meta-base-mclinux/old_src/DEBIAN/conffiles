@@ -1,0 +1,4 @@
+/etc/lsb-release
+/etc/mclinux_version
+/etc/os-release.mclinux
+/etc/dpkg/origins/mclinux

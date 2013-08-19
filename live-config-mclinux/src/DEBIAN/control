@@ -1,0 +1,14 @@
+Package: live-config-mclinux
+Version: 0.3
+Architecture: all
+Maintainer: Alexandre Teles (kabbalista) <ateles.1@gmail.com>
+Installed-Size: 53
+Depends: live-config, live-config-linstaller
+Section: misc
+Priority: optional
+Homepage: http://mclinux.linuxeiro.pw
+Description: The MCLinux fork of the additional Configuration Scripts for Debian Live (semplice)
+ live-config contains the scripts needed to perform late-userspace actions
+ on Debian Live systems.
+ .
+ This package contains the additional semplice scripts.

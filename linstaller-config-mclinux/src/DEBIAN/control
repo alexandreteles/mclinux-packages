@@ -1,0 +1,19 @@
+Package: linstaller-config-mclinux
+Source: linstaller
+Version: 0.5
+Architecture: all
+Maintainer: Alexandre Teles (kabbalista) <ateles.1@gmail.com>
+Installed-Size: 47
+Depends: linstaller (>= 4.0.1-1), linstaller-modules-base (>= 4.0.1-1)
+Section: python
+Priority: optional
+Homepage: http://launchpad.net/linstaller
+Description: The MCLinux fork of Semplice modular GNU/Linux distribution installer -- semplice configuration
+ linstaller is a modular and preseedable GNU/Linux distribution
+ installer, written in python.
+ .
+ It is Semplice Linux-oriented, but thanks to its configuration
+ system, can be adapted to many Live distributions.
+ .
+ This package contains the linstaller configuration files to
+ install Semplice Linux.

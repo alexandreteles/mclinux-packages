@@ -1,0 +1,21 @@
+#!/bin/sh
+set -e
+
+
+
+configure() {
+	# Mark ours the default origin
+	ln -sf mclinux /etc/dpkg/origins/default
+	
+	# Divert os-release
+	if ! [ -e "/etc/os-release.distrib" ]; then
+		dpkg-divert --rename --package meta-base-mclinux --divert "/etc/os-release.distrib" --add "/etc/os-release"
+		ln -s "/etc/os-release.mclinux" "/etc/os-release"
+	fi
+}
+
+case "$1" in
+	"configure")
+		configure
+		;;
+esac

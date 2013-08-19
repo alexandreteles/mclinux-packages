@@ -1,0 +1,7 @@
+NAME=MCLinux
+VERSION="1"
+ID=mclinux
+VERSION_ID=1
+PRETTY_NAME="MCLinux 1 (Uranium)"
+HOME_URL="http://mclinux.linuxeiro.com/"
+BUG_REPORT_URL="http://mclinux.linuxeiro.com/forum"

@@ -1,0 +1,12 @@
+Package: semplice-archive-keyring
+Version: 2013.01.26
+Architecture: all
+Maintainer: Eugenio Paolantonio (g7) <me@medesimo.eu>
+Installed-Size: 38
+Depends: gnupg (>= 1.0.6-4)
+Section: misc
+Priority: important
+Homepage: http://semplice-linux.sourceforge.net
+Description: GPG archive key for Semplice repository
+ This package provide the digital key for authenticate
+ Semplice's repository.

@@ -1,0 +1,31 @@
+#!/bin/sh
+set -e
+
+
+
+configure() {
+	# Remove Semplice diversion
+	dpkg-divert --remove "/etc/os-release"
+
+	# Remove all Semplice branding files
+	rm -f /etc/os-release.semplice
+	rm -f /etc/semplice-dedication.emily.beta1
+	rm -f /etc/semplice-dedication.rocks
+	rm -f /etc/semplice_version
+	rm -f /etc/dpkg/origins/semplice
+
+	# Set ours the default origin on dpkg
+	ln -sf mclinux /etc/dpkg/origins/default
+	
+	# Divert os-release to MCLinux
+	if [ -e "/etc/os-release.distrib" ]; then
+		dpkg-divert --rename --package meta-base-mclinux --divert "/etc/os-release.distrib" --add "/etc/os-release"
+		ln -sf "/etc/os-release.mclinux" "/etc/os-release"
+	fi
+}
+
+case "$1" in
+	"configure")
+		configure
+		;;
+esac
