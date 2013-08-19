@@ -1,0 +1,15 @@
+Package: meta-codecs
+Version: 0.4
+Architecture: all  
+Maintainer: Alexandre Teles (Kabbalista) <ateles.1@gmail.com>
+Installed-Size: 29
+Depends: gstreamer0.10-plugins-bad, gstreamer0.10-fluendo-mp3, gstreamer0.10-ffmpeg, ffmpeg, sox, twolame, vorbis-tools, lame, faad, libdvdcss2
+Section: misc
+Priority: optional
+Homepage: http://mclinux.linuxeiro.com
+Description: The MCLinux Multimidia metapackage
+ This package depends on all packages that makes a MCLinux multimidia system.
+ .
+ This package is used to ensure proper updates if the user decided to not
+ use the rolling release system.
+

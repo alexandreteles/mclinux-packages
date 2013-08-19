@@ -1,0 +1,15 @@
+Package: mclinux-multimidia
+Version: 0.3
+Architecture: all  
+Maintainer: Alexandre Teles (Kabbalista) <ateles.1@gmail.com>
+Installed-Size: 29
+Depends: chromium, chromium-l10n, dropbox, nautilus, skype, vlc, amarok, mplayer2, smplayer, smplayer-translations, smplayer-themes, aria2, qbittorrent, uget, xchat, gftp, openjdk-7-jdk, openjdk-7-jre, openjdk-7-jre-headless, icedtea-7-plugin
+Section: misc
+Priority: optional
+Homepage: http://mclinux.linuxeiro.com
+Description: The MCLinux Multimidia metapackage
+ This package depends on all packages that makes a MCLinux multimidia system.
+ .
+ This package is used to ensure proper updates if the user decided to not
+ use the rolling release system.
+

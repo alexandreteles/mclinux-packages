@@ -1,0 +1,12 @@
+Package: apt-notifier
+Version: 1.0-3mlrepo2
+Architecture: all
+Maintainer: Paul Brooks <maintainer@mepiscommunity.org>
+Installed-Size: 100
+Depends: apt, bash, kdebase-runtime, konsole, libqt4-core, python-qt4, synaptic
+Conflicts: mepis-aptnotify
+Replaces: mepis-aptnotify
+Section: admin
+Priority: optional
+Homepage: http://mepislovers.org/
+Description: Tray applet to notify of availability of apt updates

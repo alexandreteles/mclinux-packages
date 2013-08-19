@@ -1,0 +1,15 @@
+Package: external-keyring
+Version: 0.4
+Architecture: all  
+Maintainer: Alexandre Teles (Kabbalista) <ateles.1@gmail.com>
+Installed-Size: 29
+Depends: gnupg (>= 1.0.6-4)
+Section: misc
+Priority: optional
+Homepage: http://mclinux.linuxeiro.com
+Description: The MCLinux External Keyring metapackage
+ This package install the keys for all external repositories that dont have a .deb keyring package.
+ .
+ This package is used to ensure proper updates if the user decided to not
+ use the rolling release system.
+
