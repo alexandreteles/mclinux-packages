@@ -1,6 +1,6 @@
-Package: mclinux-multimidia
-Version: 0.3
-Architecture: all  
+Package: mclinux-multimida
+Version: 0.4a
+Architecture: i386
 Maintainer: Alexandre Teles (Kabbalista) <ateles.1@gmail.com>
 Installed-Size: 29
 Depends: chromium, chromium-l10n, dropbox, nautilus, skype, vlc, amarok, mplayer2, smplayer, smplayer-translations, smplayer-themes, aria2, qbittorrent, uget, xchat, gftp, openjdk-7-jdk, openjdk-7-jre, openjdk-7-jre-headless, icedtea-7-plugin
